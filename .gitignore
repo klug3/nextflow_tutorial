@@ -1,0 +1,8 @@
+# Dirs
+work/
+.nextflow/
+Utils/
+
+# Files
+.nextflow.log*
+
