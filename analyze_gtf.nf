@@ -2,19 +2,23 @@
 
 
 process DECOMPRESSFILES {
+
     input:
     path gz_file
 
     output:
     path '*gtf'
 
+    
     script:
     """
+    #!/usr/bin/env bash
     gzip -df $gz_file
     """
 }
 
 process CONVERTOBED12 {
+
     input:
     path gtf_file
 
