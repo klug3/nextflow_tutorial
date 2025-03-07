@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rm -r ./work/
+rm -rf ./work/
 rm ./.nextflow.log*
 
 echo ">>> COMPLETADO <<<"
